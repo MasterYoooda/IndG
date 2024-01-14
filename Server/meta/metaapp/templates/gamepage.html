@@ -1,0 +1,25 @@
+{% extends "page_templ.html" %}
+{% load static %}
+{% block content %}
+<div class="games">
+    <h1>{{games.name}}</h1>
+     <div class="textbox">
+        <p>{{games.brief}}</p>
+    </div>
+    <a href = {{steam_games.url}} class="tablet1">
+        <div class=tb1></div>
+        <p1>Steam</p1>
+        <p2>{{steam_games.price}}</p2>
+    </a>
+    <a href = {{egs_games.url}} class="tablet2">
+        <div class=tb2></div>
+        <p1>Epic</p1>
+        <p2>{{egs_games.price}}</p2>
+    </a> 
+    <img src="/static/images/im{{games.id}}.jpg">
+</div> 
+{% endblock %}
+
+
+
+

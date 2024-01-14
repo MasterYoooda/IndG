@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.wrap{
+    top: 0; 
+    position: fixed;
+    height: 70px;
+    width: 99%;
+    border-radius: 0px 0px 30px 30px;
+    background: #FFF;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.40);
+    align-items:center;  
+    z-index: 100;
+}
+img1{
+    width: 4900px;
+    height: 4900px;
+    flex-shrink: 0;
+}
+.games{
+    h1{
+    position: absolute;
+    left: 600px;
+    top: 110px;
+    color: black; 
+    font-size: 48px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    }
+    p{
+        width: 100%; 
+        height: 100%;  
+        color: black; 
+        font-size: 24px; 
+        font-family: Poppins; 
+        font-weight: 400; 
+        word-wrap: break-word;
+    }
+    .textbox{
+        margin-top: 210px;
+        margin-left: 540px;
+    }
+    .tablet1{
+        text-decoration: none;
+        width: 240px; 
+        height: 61px; 
+        left: 580px;; 
+        top: 480px; 
+        position: absolute; 
+        mix-blend-mode: darken; 
+        border-radius: 255px; 
+        border: 3px black solid;
+        p1{
+            width: 120px; 
+            height: 26px; 
+            left: 65px; 
+            top: 15px; 
+            position: relative; 
+            color: black; 
+            font-size: 20px; 
+            font-family: Poppins; 
+            font-weight: 600; 
+            word-wrap: break-word;
+        }
+        p2{
+            width: 48px; 
+            height: 23px; 
+            left:112px; 
+            top: 15px; 
+            position: relative; 
+            color: black; 
+            font-size: 16px; 
+            font-family: Poppins; 
+            font-weight: 500; 
+            word-wrap: break-word;
+        }
+        .tb1{
+            width: 60px; 
+            height: 61px; 
+            left: 180px; 
+            top: -1px; 
+            position: absolute; 
+            mix-blend-mode: darken; 
+            background: #4EEA35; 
+            border-top-left-radius: 255px; 
+            border-top-right-radius: 255px; 
+            border: 1px black solid;
+            transform: rotate(90deg);
+        }
+    }
+    .tablet2{
+        text-decoration: none;
+        width: 240px; 
+        height: 61px; 
+        left: 580px;
+        top: 400px; 
+        position: absolute; 
+        mix-blend-mode: darken; 
+        border-radius: 255px; 
+        border: 3px black solid;
+        p1{
+            width: 120px; 
+            height: 26px; 
+            left: 75px; 
+            top: 15px; 
+            position: relative; 
+            color: black; 
+            font-size: 20px; 
+            font-family: Poppins; 
+            font-weight: 600; 
+            word-wrap: break-word;
+        }
+        p2{
+            width: 48px; 
+            height: 23px; 
+            left: 138px; 
+            top: 15px; 
+            position: relative; 
+            color: black; 
+            font-size: 16px; 
+            font-family: Poppins; 
+            font-weight: 500; 
+            word-wrap: break-word;
+        }
+        .tb2{
+            width: 60px; 
+            height: 61px; 
+            left: 180px; 
+            top: -1px; 
+            position: absolute; 
+            mix-blend-mode: darken; 
+            background: #4EEA35; 
+            border-top-left-radius: 255px; 
+            border-top-right-radius: 255px; 
+            border: 1px black solid;
+            transform: rotate(90deg);
+        }
+    }
+    img{
+        position: absolute;
+        left: 60px;
+        top: 110px;
+        width: 450px; 
+        height: 450px; 
+        border-radius: 30px; 
+        border: 1px black solid;
+    }
+}
+.logo_{
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+.menu_list{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_link{
+    transition: 1s;
+    width: 65px;
+    height: 28px;
+    flex-shrink: 0;
+}
+.menu_link:hover {
+    transform: scale(1.15);
+}
+
+
+.games_list{
+margin-top: 100px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+    a{
+        width: 250px; 
+        height: 340px; 
+        transition: 1s;
+        text-decoration: none;
+        display: block;
+        position: relative; 
+    }
+    a:hover {
+        transform: scale(1.15);
+    }
+    img{
+        width: 250px; 
+        height: 250px; 
+        border-top-left-radius: 30px; 
+        border-top-right-radius: 30px; 
+    }
+    .graybox{
+        position: relative;
+        top: -4px;
+        width: 250px; 
+        height: 90px; 
+        background: #c4c4c4; 
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center; 
+    }
+    p{ 
+        display: block;
+        width: 250px;
+        color: black; 
+        font-size: 24px; 
+        font-family: Poppins; 
+        font-weight: 600; 
+    } 
+
+}
+
+
+
+
+body{
+    padding-bottom: 1523px; 
+    background: rgb(255, 255, 255); 
+}
+p100{
+    position: absolute;
+    color: rgb(204, 6, 6);
+    font-size: 60px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word
+}
+p2{
+    color: black;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word 
+}  

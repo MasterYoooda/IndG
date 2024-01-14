@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main page</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}" />
+  </head>
+    <div class= "wrap">
+      <header>
+            <a class = "logo_"href="#" style="float:left; margin-top:2px; margin-right:50px;"><img src="{% static "images/logo.png" %}"></a>
+              <ul class="menu_list">
+                  <a href="" class = "menu_link">
+                      <img src="{% static "images/star.svg" %}">
+                  </a>
+                  <a href="" class = "menu_link">
+                      <img src="{% static "images/burger.svg" %}">
+                  </a>
+                  <a href="" class = "menu_link">
+                      <img src="{% static "images/user.svg" %}">
+                  </a>
+              </ul>
+      </header>
+    </div> 
+  <body>
+    <div class="games_list">
+      {% for game in games %}
+      <a href = "/gamepage/{{forloop.counter}}"> 
+          <img src="/static/images/im{{forloop.counter}}.jpg" onerror = "this.src='/static/images/noimg.png'">
+          <div class = "graybox"><p>{{game.name}}</p></div>
+      </a>    
+      {% endfor %} 
+    </div>
+  </body>
+</html> 
